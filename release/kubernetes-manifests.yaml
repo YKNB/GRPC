@@ -492,7 +492,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: karl123/boutique-cartservice
+        image: karl123/boutique-cartservice:v0.8.0
         ports:
         - containerPort: 7070
         env:
@@ -584,7 +584,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: karl123/boutique-loadgenerator
+        image: karl123/boutique-loadgenerator:v0.8.0
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
